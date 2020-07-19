@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+            *{
+                margin: 0;
+            }
+            #warp{
+                width: 940px;
+                margin: 0 auto;
+                height: 500px;
+            }
+            /* 상단 메뉴 입니다 */
+            #main{
+                float: left;
+            }
+            header{
+                height: 70px;
+                margin-top: 25px;
+                margin-bottom: 30px;
+            }
+            .mmenu{
+                width: 640px;
+                margin-top: 10px;
+                list-style: none;
+                float: right;
+                font-family: "고딕";
+                font-size: 1.2em;
+                font-weight: 900;
+                letter-spacing: 5px;
+            }
+            .mmenu li{
+                display: inline-block;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+            hr{
+                margin-bottom: 10px;
+            }
+            /* 메인메뉴 절대값 */
+            p{
+                width: 100%;
+                padding-bottom: 10px;
+                letter-spacing: 0.5px;
+            }
+            section{
+                width: 725px;
+                float: right;
+             }
+            a{
+                text-decoration: none;
+                color: #5a5a5a;
+            }
+            a:hover{
+                color: #ffa6c5;
+            }
+            footer{
+                clear: both;
+                font-family: "고딕";
+                font-size: 0.75em;
+                text-align: center;
+                width: 100%;
+                height: 30px;
+            }
+            /* 메인내용 절대값 입니다. */
+            #c_info{
+                width: 725px;
+                float: right;
+                height: 548px;
+            }
+            /*
+            .con01_name{
+                color: #141414;
+                font-size: 20px;
+                font-weight: 900;
+                margin-top: 10px;
+            }
+            */
+            #title01{
+                font-weight: 900;
+                font-size: 17px;
+            }
+            #con01_main01{
+                padding: 35px 0 0 100px;
+            }
+            .con01_main02{
+                color: black; 
+                font-size: 25px; 
+                font-weight: 900;
+                line-height: 0px;
+            }
+            .con01_main03{
+                font-size: 0.9em;
+                margin-top: 10px;
+            }
+            #con01_main04{
+                text-align: right;
+            }
+            #con01_main05{
+                color: black; 
+                font-size: 15px; 
+                font-weight: 900;
+                line-height: 40px;
+            }
+            /* 나중에 밀리면 바꿔라!! 어미파일은 3_2_인포다 */
+            .con_03_main01{
+
+            }
+            /* 왼쪽 메뉴 절대값 */
+            aside{
+                margin-top: 35px;
+                width: 175px;
+                height: 250px;
+                float: left;
+                border: solid 3px white;
+            }
+            /* 왼쪽 메뉴 유동값 */
+            #l_list{
+                width: 125px;
+                list-style:none;
+                list-style-position: right;
+                font-family: "고딕";
+                font-size: 0.7em;
+                font-weight: 900;
+                margin-top: 15px;
+                padding-left: 25px;
+                line-height: 35px;
+            }
+            #l_m_i01{
+                margin: 20px 0 0 23.5px;
+                color: #ffa6c5;
+                font-weight: 900;
+                text-shadow: 4px 4px 3px #d6d6d6;
+                line-height: 20px;
+            }
+            /* 메인 섹션 유동값 */
+            #sec01{
+                height: 800px;
+            }
+            #sec02{
+                height: 1500px;
+            }
+            /* 1페이지 내용 입니다 */
+            .mainimg{
+                width: 940px;
+                height: 570px;
+                float: right;
+            }          
+            /* 3페이지 내용 입니다.
+            .phone{
+                width: 285px;
+                height: 85px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                float: right;
+            }        
+            
+             */
+            .his{
+                padding-top: 15px;
+                font-weight: bold;
+                font-size: 1.2em;
+                color: #141414;
+            }
